@@ -1,7 +1,7 @@
 # Michael-Brooks
 Meta-analysis data for campylobacter in wild mammals
 
-This dataset is from a meta-analysis that I did looking at the relationship between life history traits and 
+#This dataset is from a meta-analysis that I did looking at the relationship between life history traits and 
 Campylobacter carriage. Papers were retrieved indicating the presence or absence of Campylobacter in 
 an animal species and the data were recorded in a database. Sample sizes ranged from 1 to more than 
 1000, so each record was transformed from a proportion to a binary variable (0 for absence, 1 for 
@@ -17,4 +17,6 @@ between life history traits and Campylobacter carriage using chi-squared analysi
 to explore the data a bit more and use transformation to look for interesting patterns. As all of my data 
 are categorical currently, I will likely have to do something to it to make the analyses work. If this is not 
 feasible, I will look for some other data from a public repository. I don’t currently have data for my 
-proposed thesis topic unfortunately because I have not made it out to the field yet. 
+proposed thesis topic unfortunately because I have not made it out to the field yet
+
+#Week 1: intro to R. Pulled campylobacterreview_data.csv for manipulating. Used R to call rows and columns. Aggregated data using several functions (sum, mean, length) and created a new table using columns from the dataset (urban and campylobacter presence/absence data)

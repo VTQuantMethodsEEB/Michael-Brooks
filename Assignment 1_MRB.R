@@ -1,9 +1,7 @@
 rm(list=ls()) # clears workspace
 
 
-#load packages
-#you may need to install if you don't have these yet
-#install.packages("tidyverse")
+#load necessary packages
 
 library(tidyverse)
 library(reshape2)
