@@ -1,4 +1,4 @@
-﻿order,family,species,common,urban,sociality,trophic,consumption,cjejuni,ccoli,campylobacter,mass
+﻿order,family,species,common,urban,sociality,trophic,consumption,cjejuni,ccoli,campy,mass
 Artiodactyla,Cervidae,Alces alces,moose ,Visitor,Solitary,Herbivore,Yes,1,0,1,520000
 Artiodactyla,Antilocapridae,Antilocapra americana,pronghorn,Avoider,Social,Herbivore,Yes,0,,0,53500
 Primates,Aotidae,Aotus spp,night monkeys,Visitor,Social,Omnivore,No,0,0,0,854.5
@@ -102,7 +102,7 @@ Chiroptera,Mormoopidae,Pteronotus parnellii,Parnell's mustached bat,Avoider,Soci
 Artiodactyla,Cervidae,Rangifer tarandus,wild reindeer,Avoider,Social,Herbivore,Yes,0,0,0,186500
 Rodentia,Muridae,Rattus norvegicus,brown rat,Dweller,Social,Omnivore,Yes,1,1,1,320
 Rodentia,Muridae,Rattus rattus ,black rat ,Dweller,Social,Omnivore,Yes,1,1,1,185
-Chiroptera,Rhinolophidaeæ,Rhinolophus ferrumequinum nippon,Japanese greater horseshoe bat,Visitor,Social,Carnivore,No,,,0,25.5
+Chiroptera,Rhinolophidae,Rhinolophus ferrumequinum nippon,Japanese greater horseshoe bat,Visitor,Social,Carnivore,No,,,0,25.5
 Chiroptera,Pteropodidae,Rousettus amplexicaudatus,Geoffroy's rousette bat,Visitor/Dweller,Social,Herbivore,Yes,1,0,1,
 Artiodactyla,Bovidae,Rupicara pyrenaica,Pyrenean chamois,Avoider,Social,Herbivore,Yes,0,0,0,
 Primates,Callitrichidae,Saguinus labiatus ,white-lipped tamarin,Visitor,Social,Omnivore,Yes,1,1,1,512.5
