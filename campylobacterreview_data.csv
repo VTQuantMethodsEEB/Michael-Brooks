@@ -1,123 +1,123 @@
-﻿order,family,species,commonname,urban,sociality,trophic,humancons,cjejuni,ccoli,campylobacter
-Artiodactyla,Cervidae,Alces alces,moose ,Visitor,Solitary,Herbivore,Yes,1,0,1
-Artiodactyla,Antilocapridae,Antilocapra americana,pronghorn,Avoider,Social,Herbivore,Yes,0,,0
-Primates,Aotidae,Aotus spp,night monkeys,Visitor,Social,Omnivore,No,0,0,0
-Rodentia,Muridae,Apodemus flavicollis,yellow-necked mouse,Dweller,Solitary,Omnivore,No,1,0,1
-Rodentia,Muridae,Apodemus speciosusæ,large Japanese field mouse,Dweller,Solitary,Herbivore,No,,,0
-Rodentia,Muridae,Apodemus sylvaticus,wood mouse,Dweller,Solitary,Omnivore,No,0,0,0
-Carnivora,Otariidae,Arctocephalus gazella,Antarctic fur seal,Avoider,Solitary,Carnivore,No,0,0,1
-Primates,Atelidae,Ateles paniscus,red-faced spider monkey,Visitor,Social,Omnivore,Yes,0,0,0
-Eulipotyphla,Soricidae,Blarina brevicauda,northern short-tailed shrew,Dweller,Solitary,Carnivore,No,0,0,0
-Artiodactyla,Cervidae,Blastocerus dichotomus,marsh deer,Visitor,Solitary,Herbivore,Yes,0,0,0
-Primates,Callitrichidae,Callithrix spp,monkeys,Dweller,Social,Omnivore,Yes,1,,1
-Artiodactyla,Bovidae,Capra pyrenaica,iberian ibex ,Avoider,Social,Herbivore,Yes,0,0,0
-Artiodactyla,Cervidae,Capreolus capreolus,roe deer ,Visitor,Social,Herbivore,Yes,0,0,1
-Chiroptera,Phyllostomidae,Carollia perspicillata,Seba's short-tailed batæ,Visitor/Dweller,Social,Herbivore,Yes,0,0,0
-Rodentia,Castoridae,Castor canadensis,beaver,Visitor/Dweller,Social,Herbivore,Yes,0,0,0
-Rodentia,Castoridae,Castor fiber,Eurasian beaver,Visitor/Dweller,Social,Herbivore,Yes,0,0,0
-Primates,Cebidae,Cebus albifrons,white-fronted capuchin,Visitor,Social,Omnivore,Yes,0,0,0
-Primates,Cebidae,Cebus apella,tufted capuchin,Visitor,Social,Omnivore,Yes,1,1,1
-Artiodactyla,Cervidae,Cervus canadensis,elk,Visitor,Solitary,Herbivore,Yes,0,0,0
-Artiodactyla,Cervidae,Cervus elaphus,red deer ,Visitor,Social,Herbivore,Yes,1,1,1
-Artiodactyla,Cervidae,Cervus nippon,sika deer ,Dweller,Solitary,Herbivore,Yes,0,0,0
-Primates,Cercopithecidae,Chlorocebus aethiops,green monkey,Visitor,Social,Herbivore,Yes,1,1,1
-Rodentia,Cricetidae,Clethrionomys glareolus,bank vole,Avoider,Solitary,Omnivore,No,1,0,1
-Eulipotyphla,Soricidae,Crocidura russula,white-toothed shrew,Dweller,Solitary,Carnivore,No,0,0,0
-Chiroptera,Pteropodidae,Cynopterus brachyotis,lesser short-nosed fruit batæ,Visitor/Dweller,Solitary,Herbivore,Yes,0,0,0
-Artiodactyla,Cervidae,Dama dama,fallow deer,Visitor,Social,Herbivore,Yes,0,0,0
-Artiodactyla,Cervidae,Dama mesopotamica,persian fallow deer,Visitor,Social,Herbivore,Yes,1,1,1
-Chiroptera,Phyllostomidae,Desmodus rotundus,common vampire bat,Visitor/Dweller,Social,Carnivore,No,0,0,0
-Chiroptera,Phyllostomidae,Diaemus youngi,white-winged vampire batæ,Visitor,Social,Carnivore,No,0,0,0
-Didelphimorphia,Didelphidae,Didelphis virginiana,opossum ,Dweller,Solitary,Omnivore,Yes,0,0,1
-Carnivora,Mustelidae,Enhydra lutris,sea otter,Avoider,Social,Carnivore,No,,,1
-Chiroptera,Pteropodidae,Eonycteris spelaea,cave necter bat,Visitor/Dweller,Social,Herbivore,Yes,0,0,0
-Chiroptera,Vespertilionidae,Eptesicus serotinus,serotine bat,Dweller,Social,Carnivore,No,0,0,0
-Eulipotyphla,Erinacedidae,Erinaceus europaeus,european hedgehog,Dweller,Solitary,Omnivore,No,1,,1
-Primates,Hominidae,Gorilla gorilla beringei,mountain gorilla,Visitor,Social,Omnivore,Yes,1,,1
-Carnivora,Phocidaeæ,Halichoerus grypus,grey seal ,Visitor,Solitary,Carnivore,Yes,1,1,1
-Carnivora,Herpestidae,Herpestes javanicus,small indian mongoose,Dweller,Solitary,Omnivore,Yes,1,,1
-Chiroptera,Rhinolophidae,Hipposideros diadema,diadem leaf-nosed batæ,Visitor,Social,Carnivore,Yes,0,0,0
-Primates,Atelidae,Lagothrix lagotricha,brown woolly monkey,Visitor,Social,Omnivore,Yes,0,0,0
-Lagomorpha,Leporidae,Lepus spp. ,hare ,Visitor/Dweller,Social,Herbivore,Yes,,0,1
-Lagomorpha,Leporidae,Lepus spp. ,rabbit,Visitor/Dweller,Social,Herbivore,Yes,1,0,1
-Lagomorpha,Leporidae,Lepus timidus,mountain hare,Visitor,Social,Herbivore,Yes,1,,1
-Primates,Cercopithecidae,Macacas sinica,toque macaque,Visitor/Dweller,Social,Omnivore,Yes,1,1,1
-Chiroptera,Pteropodidae,Macroglossus minimus,long-tongued nectar bat,Visitor/Dweller,Solitary,Herbivore,Yes,0,0,0
-Rodentia,Sciuridae,Marmota marmota,alpine marmot,Avoider,Solitary,Omnivore,Yes,,,0
-Rodentia,Sciuridae,Marmota monax,groundhog,Dweller,Social,Omnivore,Yes,0,0,0
-Carnovira,Mustelidae,Meles meles,european badger,Dweller,Social,Omnivore,No,1,,1
-Carnivora,Mephitidae,Mephitis mephitis,striped skunk,Dweller,Solitary,Omnivore,Yes,1,0,1
-Rodentia,Muridae,Micromys minutus ,harvest mouse,Avoider,Social,Omnivore,No,0,0,0
-Rodentia,Cricetidae,Microtus agrestis,field vole ,Visitor,Social,Omnivore,No,0,0,0
-Rodentia,Cricetidae,Microtus agrestis,short-tailed field vole,Visitor,Social,Herbivore,No,0,,0
-Rodentia,Cricetidae,Microtus arvalis,common vole,Dweller,Social,Herbivore,No,0,0,0
-Rodentia,Cricetidae,Microtus levis,east european vole,Visitor,Social,Herbivore,No,1,,0
-Rodentia,Cricetidae,Microtus montebelli,Japanese grass vole,Dweller,Social,Herbivore,No,,,0
-Rodentia,Cricetidae,Microtus oeconomus ,northern vole,Avoider,Solitary,Herbivore,No,0,0,0
-Rodentia,Cricetidae,Microtus pennsylvanicus,vole,Visitor,Solitary,Omnivore,No,0,0,0
-Carnivora,Phocidae,Mirounga angustirostris,northern elephant seal ,Visitor,Solitary,Carnivore,No,1,0,1
-Chiroptera,Molossidae,Molossus molossus,velvety free-tailed bat,Visitor/Dweller,Social,Carnivore,No,0,0,0
-Chiroptera,Molossidae,Molossus rufus,black mastiff bat,Visitor/Dweller,Social,Carnivore,No,0,0,0
-Chiroptera,Mormoopidae,Mormoop ssp.,ghost-faced bats,Dweller,Social,Carnivore,No,0,0,0
-Carnivora,Herpestidae,Mungos mungo,banded mongoose,Dweller,Social,Omnivore,Yes,1,1,1
-Rodentia,Muridae,Mus musculus,house mouse,Dweller,Social,Omnivore,No,1,1,1
-Carnivora,Mustelidae,Mustela nivalis,least weasel,Dweller,Solitary,Carnivore,Yes,0,,0
-Carnivora,Mustelidae,Mustela sibirica ,Siberian weasel,Dweller,Solitary,Carnivore,Yes,,,0
-Rodentia,Cricetidae,Myodes rutilus,Northern red-backed vole,Avoider,Solitary,Omnivore,No,1,,1
-Rodentia,Cricetidae,Myodes rufocanus,Grey-sided vole,Avoider,Solitary,Omnivore,No,0,,0
-Rodentia,Cricetidae,Myopus schisticolor,wood lemming,Avoider,Solitary,Herbivore,No,0,,0
-Chiroptera,Vespertilionidae,Myotis bechsteinii,Bechstein's bat,Visitor,Social,Carnivore,No,1,0,1
-Chiroptera,Vespertilionidae,Myotis brandtii,Brandt's bat,Visitor,Social,Carnivore,No,0,0,0
-Chiroptera,Vespertilionidae,Myotis dasycneme ,pond bat,Visitor/Dweller,Social,Carnivore,No,1,0,1
-Chiroptera,Vespertilionidae,Myotis daubentonii,Daubenton's bat,Visitor/Dweller,Social,Carnivore,No,0,1,1
-Chiroptera,Vespertilionidae,Myotis emarginatus,Geoffroy's bat,Visitor/Dweller,Social,Carnivore,Yes,1,0,1
-Chiroptera,Vespertilionidae,Myotis myotis,greater mouse-eared bat,Visitor/Dweller,Social,Carnivore,No,0,0,0
-Chiroptera,Vespertilionidae,Myotis mystacinus,whiskered bat,Visitor/Dweller,Social,Carnivore,Yes,0,0,0
-Chiroptera,Vespertilionidae,Myotis natteri,Natterer's bat,Avoider,Social,Carnivore,Yes,0,0,0
-Eulipotyphla,Soricidae,Neomys fodiens,water shrew,Visitor/Dweller,Solitary,Carnivore,No,1,,1
-Chiroptera,Noctilionidae,Noctilio leporinus,greater bulldog bat ,Visitor,Social,Carnivore,No,0,0,0
-Chiroptera,Vespertilionidae,Nyctalus noctula,common noctule,Dweller,Solitary,Carnivore,No,1,0,1
-Carnivora,Canidae,Nyctereutes procyonoides,Raccoon dog,Visitor,Social,Omnivore,Yes,1,0,1
-Artiodactyla,Cervidae,Odocoileus hemionus,mule deer,Visitor,Social,Herbivore,Yes,,,0
-Artiodactyla,Cervidae,Odocoileus virginianus,white-tailed deer,Visitor,Solitary,Herbivore,Yes,0,0,0
-Rodentia,Cricetidae,Ondatra zibethica,muskrat,Visitor/Dweller,Social,Herbivore,Yes,1,0,1
-Carnivora,Otariidae,Otaria flavescens,south American seal lion,Dweller,Social,Carnivore,Yes,0,0,0
-Artiodactyla,Bovidae ,Ovis musimon,mouflon,Avoider,Social,Herbivore,Yes,0,0,0
-Carnivora,Viverridae,Paguma larvata,masked palm civet,Dweller,Solitary,Omnivore,Yes,0,0,0
-Primates,Hominidae,Pan troglodytes schweinfurthii,chimpanzees,Visitor,Social,Omnivore,Yes,0,0,0
-Primates,Cercopithecidae,Papio ursinus,chacma baboon,Visitor,Social,Omnivore,Yes,0,0,0
-Rodentia,Cricetidae,Peromyscus spp.,deer mouse,Dweller,Solitary,Omnivore,No,1,0,1
-Artiodactyla,Suidae,Phacochoerus aethiopicus,desert warthog,Visitor,Social,Herbivore,Yes,1,1,1
-Carnivora,Phocidaeæ,Phoca vitulina,common seal,Visitor,Social,Carnivore,Yes,0,0,0
-Chiroptera,Phyllostomidae,Phyllostomus discolor,pale spear-nosed bat,Dweller,Social,Omnivore,No,0,0,0
-Chiroptera,Phyllostomidae,Phyllostomus hastatus,greater spear-nosed bat,Avoider,Social,Omnivore,No,0,0,0
-Chiroptera,Vespertilionidae,Pipistrellus abramus,Japanese house bat,Dweller,Social,Carnivore,No,,,0
-Chiroptera,Vespertilionidae,Pipistrellus nathusii,Nathusius' pipistrelle,Dweller,Social,Carnivore,No,0,0,0
-Chiroptera,Vespertilionidae,Pipistrellus pipistrellus,common pipistrelle,Visitor,Solitary,Carnivore,No,1,0,1
-Primates,Pitheciidae,Pithecia monachus,monk saki,Visitor,Social,Omnivore,Yes,0,1,1
-Chiroptera,Vespertilionidae,Plecotus auritus,brown long-eared bat,Avoider,Social,Carnivore,No,0,0,0
-Chiroptera,Vespertilionidae,Plecotus austriacus,grey long-eared bat,Avoider,Solitary,Carnivore,No,0,0,0
-Carnivora,Procyonidae,Procyon lotor,Raccoon,Dweller,Solitary,Omnivore,Yes,1,1,1
-Chiroptera,Mormoopidae,Pteronotus parnellii,Parnell's mustached bat,Avoider,Social,Carnivore,No,0,0,0
-Artiodactyla,Cervidae,Rangifer tarandus,wild reindeer,Avoider,Social,Herbivore,Yes,0,0,0
-Rodentia,Muridae,Rattus norvegicus,brown rat,Dweller,Social,Omnivore,Yes,1,1,1
-Rodentia,Muridae,Rattus rattus ,black rat ,Dweller,Social,Omnivore,Yes,1,1,1
-Chiroptera,Rhinolophidaeæ,Rhinolophus ferrumequinum nippon,Japanese greater horseshoe bat,Visitor,Social,Carnivore,No,,,0
-Chiroptera,Pteropodidae,Rousettus amplexicaudatus,Geoffroy's rousette bat,Visitor/Dweller,Social,Herbivore,Yes,1,0,1
-Artiodactyla,Bovidae,Rupicara pyrenaica,Pyrenean chamois,Avoider,Social,Herbivore,Yes,0,0,0
-Primates,Callitrichidae,Saguinus labiatus ,white-lipped tamarin,Visitor,Social,Omnivore,Yes,1,1,1
-Primates,Callitrichidae,Saguinus mystax,moustached tamarin,Visitor,Social,Omnivore,No,0,1,1
-Primates,Cebidae,Saimiri sciureus,common squirrel monkey,Visitor,Social,Omnivore,No,0,0,0
-Eulipotyphla,Talpidae,Scalopus aquaticus,eastern mole,Avoider,Solitary,Carnivore,No,0,0,0
-Rodentia,Sciuridae,Sciurus vulgaris,red squirrel ,Dweller,Solitary,Omnivore,Yes,1,0,1
-Primates,Cercopithecidae,Semnopithecus priam,tufted gray langur,Visitor/Dweller,Social,Omnivore,Yes,0,0,0
-Eulipotyphla,Soricidae,Sorex araneus,common shrew,Dweller,Solitary,Carnivore,No,1,0,1
-Eulipotyphla,Soricidae,Sorex caecutiens,Laxmann's shrew,Avoider,Solitary,Omnivore,No,0,,0
-Eulipotyphla,Soricidae,Sorex isodon,taiga shrew,Avoider,Solitary,Carnivore,No,0,,0
-Eulipotyphla,Soricidae,Sorex minutus,pygmy shrew,Dweller,Solitary,Carnivore,No,0,,0
-Artiodactyla,Suidae,Sus scrofa,wild boar,Visitor,Social,Omnivore,Yes,1,1,1
-Artiodactyla,Bovidae,Sylvicapra grimmia,common duiker,Visitor,Solitary,Herbivore,Yes,1,1,0
-Artiodactyla,Bovidae,Syncerus caffer,African buffalo,Avoider,Social,Herbivore,Yes,0,1,0
-Artiodactyla,Delphinidae,Tursiops truncatus,bottlenose dolphin,Avoider,Social,Carnivore,Yes,,,1
-Carnivora,Ursidae,Ursus spp.,bear,Visitor/Dweller,Solitary,Omnivore,Yes,1,0,0
-Carnivora,Canidae,Vulpes vulpes,red fox,Dweller,Solitary,Omnivore,Yes,1,0,1
+﻿order,family,species,common,urban,sociality,trophic,consumption,cjejuni,ccoli,campylobacter,mass
+Artiodactyla,Cervidae,Alces alces,moose ,Visitor,Solitary,Herbivore,Yes,1,0,1,520000
+Artiodactyla,Antilocapridae,Antilocapra americana,pronghorn,Avoider,Social,Herbivore,Yes,0,,0,53500
+Primates,Aotidae,Aotus spp,night monkeys,Visitor,Social,Omnivore,No,0,0,0,854.5
+Rodentia,Muridae,Apodemus flavicollis,yellow-necked mouse,Dweller,Solitary,Omnivore,No,1,0,1,
+Rodentia,Muridae,Apodemus speciosus,large Japanese field mouse,Dweller,Solitary,Herbivore,No,,,0,
+Rodentia,Muridae,Apodemus sylvaticus,wood mouse,Dweller,Solitary,Omnivore,No,0,0,0,23.4
+Carnivora,Otariidae,Arctocephalus gazella,Antarctic fur seal,Avoider,Solitary,Carnivore,No,0,0,1,
+Primates,Atelidae,Ateles paniscus,red-faced spider monkey,Visitor,Social,Omnivore,Yes,0,0,0,7887.5
+Eulipotyphla,Soricidae,Blarina brevicauda,northern short-tailed shrew,Dweller,Solitary,Carnivore,No,0,0,0,24
+Artiodactyla,Cervidae,Blastocerus dichotomus,marsh deer,Visitor,Solitary,Herbivore,Yes,0,0,0,107000
+Primates,Callitrichidae,Callithrix spp,monkeys,Dweller,Social,Omnivore,Yes,1,,1,306
+Artiodactyla,Bovidae,Capra pyrenaica,iberian ibex ,Avoider,Social,Herbivore,Yes,0,0,0,57500
+Artiodactyla,Cervidae,Capreolus capreolus,roe deer ,Visitor,Social,Herbivore,Yes,0,0,1,26000
+Chiroptera,Phyllostomidae,Carollia perspicillata,Seba's short-tailed bat,Visitor/Dweller,Social,Herbivore,Yes,0,0,0,15
+Rodentia,Castoridae,Castor canadensis,beaver,Visitor/Dweller,Social,Herbivore,Yes,0,0,0,22500
+Rodentia,Castoridae,Castor fiber,Eurasian beaver,Visitor/Dweller,Social,Herbivore,Yes,0,0,0,24000
+Primates,Cebidae,Cebus albifrons,white-fronted capuchin,Visitor,Social,Omnivore,Yes,0,0,0,2200
+Primates,Cebidae,Cebus apella,tufted capuchin,Visitor,Social,Omnivore,Yes,1,1,1,3050
+Artiodactyla,Cervidae,Cervus canadensis,elk,Visitor,Solitary,Herbivore,Yes,0,0,0,282000
+Artiodactyla,Cervidae,Cervus elaphus,red deer ,Visitor,Social,Herbivore,Yes,1,1,1,282000
+Artiodactyla,Cervidae,Cervus nippon,sika deer ,Dweller,Solitary,Herbivore,Yes,0,0,0,42250
+Primates,Cercopithecidae,Chlorocebus aethiops,green monkey,Visitor,Social,Herbivore,Yes,1,1,1,4000
+Rodentia,Cricetidae,Clethrionomys glareolus,bank vole,Avoider,Solitary,Omnivore,No,1,0,1,18.5
+Eulipotyphla,Soricidae,Crocidura russula,white-toothed shrew,Dweller,Solitary,Carnivore,No,0,0,0,12.5
+Chiroptera,Pteropodidae,Cynopterus brachyotis,lesser short-nosed fruit bat,Visitor/Dweller,Solitary,Herbivore,Yes,0,0,0,65
+Artiodactyla,Cervidae,Dama dama,fallow deer,Visitor,Social,Herbivore,Yes,0,0,0,55000
+Artiodactyla,Cervidae,Dama mesopotamica,persian fallow deer,Visitor,Social,Herbivore,Yes,1,1,1,
+Chiroptera,Phyllostomidae,Desmodus rotundus,common vampire bat,Visitor/Dweller,Social,Carnivore,No,0,0,0,32.5
+Chiroptera,Phyllostomidae,Diaemus youngi,white-winged vampire bat,Visitor,Social,Carnivore,No,0,0,0,40
+Didelphimorphia,Didelphidae,Didelphis virginiana,opossum ,Dweller,Solitary,Omnivore,Yes,0,0,1,3950
+Carnivora,Mustelidae,Enhydra lutris,sea otter,Avoider,Social,Carnivore,No,,,1,29500
+Chiroptera,Pteropodidae,Eonycteris spelaea,cave necter bat,Visitor/Dweller,Social,Herbivore,Yes,0,0,0,58.5
+Chiroptera,Vespertilionidae,Eptesicus serotinus,serotine bat,Dweller,Social,Carnivore,No,0,0,0,
+Eulipotyphla,Erinacedidae,Erinaceus europaeus,european hedgehog,Dweller,Solitary,Omnivore,No,1,,1,1000
+Primates,Hominidae,Gorilla gorilla beringei,mountain gorilla,Visitor,Social,Omnivore,Yes,1,,1,135000
+Carnivora,Phocidaeæ,Halichoerus grypus,grey seal ,Visitor,Solitary,Carnivore,Yes,1,1,1,185000
+Carnivora,Herpestidae,Herpestes javanicus,small indian mongoose,Dweller,Solitary,Omnivore,Yes,1,,1,
+Chiroptera,Rhinolophidae,Hipposideros diadema,diadem leaf-nosed bat,Visitor,Social,Carnivore,Yes,0,0,0,42
+Primates,Atelidae,Lagothrix lagotricha,brown woolly monkey,Visitor,Social,Omnivore,Yes,0,0,0,6500
+Lagomorpha,Leporidae,Lepus spp. ,hare ,Visitor/Dweller,Social,Herbivore,Yes,,0,1,5550
+Lagomorpha,Leporidae,Lepus spp. ,rabbit,Visitor/Dweller,Social,Herbivore,Yes,1,0,1,5550
+Lagomorpha,Leporidae,Lepus timidus,mountain hare,Visitor,Social,Herbivore,Yes,1,,1,2500
+Primates,Cercopithecidae,Macaca sinica,toque macaque,Visitor/Dweller,Social,Omnivore,Yes,1,1,1,4310
+Chiroptera,Pteropodidae,Macroglossus minimus,long-tongued nectar bat,Visitor/Dweller,Solitary,Herbivore,Yes,0,0,0,18
+Rodentia,Sciuridae,Marmota marmota,alpine marmot,Avoider,Solitary,Omnivore,Yes,,,0,3500
+Rodentia,Sciuridae,Marmota monax,groundhog,Dweller,Social,Omnivore,Yes,0,0,0,4000
+Carnovira,Mustelidae,Meles meles,european badger,Dweller,Social,Omnivore,No,1,,1,11650
+Carnivora,Mephitidae,Mephitis mephitis,striped skunk,Dweller,Solitary,Omnivore,Yes,1,0,1,3500
+Rodentia,Muridae,Micromys minutus ,harvest mouse,Avoider,Social,Omnivore,No,0,0,0,6
+Rodentia,Cricetidae,Microtus agrestis,field vole ,Visitor,Social,Omnivore,No,0,0,0,
+Rodentia,Cricetidae,Microtus agrestis,short-tailed field vole,Visitor,Social,Herbivore,No,0,,0,
+Rodentia,Cricetidae,Microtus arvalis,common vole,Dweller,Social,Herbivore,No,0,0,0,27.5
+Rodentia,Cricetidae,Microtus levis,east european vole,Visitor,Social,Herbivore,No,1,,0,
+Rodentia,Cricetidae,Microtus montebelli,Japanese grass vole,Dweller,Social,Herbivore,No,,,0,
+Rodentia,Cricetidae,Microtus oeconomus ,northern vole,Avoider,Solitary,Herbivore,No,0,0,0,52.5
+Rodentia,Cricetidae,Microtus pennsylvanicus,vole,Visitor,Solitary,Omnivore,No,0,0,0,42.12
+Carnivora,Phocidae,Mirounga angustirostris,northern elephant seal ,Visitor,Solitary,Carnivore,No,1,0,1,1450000
+Chiroptera,Molossidae,Molossus molossus,velvety free-tailed bat,Visitor/Dweller,Social,Carnivore,No,0,0,0,
+Chiroptera,Molossidae,Molossus rufus,black mastiff bat,Visitor/Dweller,Social,Carnivore,No,0,0,0,
+Chiroptera,Mormoopidae,Mormoop ssp.,ghost-faced bats,Dweller,Social,Carnivore,No,0,0,0,
+Carnivora,Herpestidae,Mungos mungo,banded mongoose,Dweller,Social,Omnivore,Yes,1,1,1,1250
+Rodentia,Muridae,Mus musculus,house mouse,Dweller,Social,Omnivore,No,1,1,1,21
+Carnivora,Mustelidae,Mustela nivalis,least weasel,Dweller,Solitary,Carnivore,Yes,0,,0,65
+Carnivora,Mustelidae,Mustela sibirica ,Siberian weasel,Dweller,Solitary,Carnivore,Yes,,,0,590
+Rodentia,Cricetidae,Myodes rutilus,Northern red-backed vole,Avoider,Solitary,Omnivore,No,1,,1,30
+Rodentia,Cricetidae,Myodes rufocanus,Grey-sided vole,Avoider,Solitary,Omnivore,No,0,,0,
+Rodentia,Cricetidae,Myopus schisticolor,wood lemming,Avoider,Solitary,Herbivore,No,0,,0,32.5
+Chiroptera,Vespertilionidae,Myotis bechsteinii,Bechstein's bat,Visitor,Social,Carnivore,No,1,0,1,
+Chiroptera,Vespertilionidae,Myotis brandtii,Brandt's bat,Visitor,Social,Carnivore,No,0,0,0,
+Chiroptera,Vespertilionidae,Myotis dasycneme ,pond bat,Visitor/Dweller,Social,Carnivore,No,1,0,1,
+Chiroptera,Vespertilionidae,Myotis daubentonii,Daubenton's bat,Visitor/Dweller,Social,Carnivore,No,0,1,1,10
+Chiroptera,Vespertilionidae,Myotis emarginatus,Geoffroy's bat,Visitor/Dweller,Social,Carnivore,Yes,1,0,1,
+Chiroptera,Vespertilionidae,Myotis myotis,greater mouse-eared bat,Visitor/Dweller,Social,Carnivore,No,0,0,0,32.5
+Chiroptera,Vespertilionidae,Myotis mystacinus,whiskered bat,Visitor/Dweller,Social,Carnivore,Yes,0,0,0,6
+Chiroptera,Vespertilionidae,Myotis natteri,Natterer's bat,Avoider,Social,Carnivore,Yes,0,0,0,
+Eulipotyphla,Soricidae,Neomys fodiens,water shrew,Visitor/Dweller,Solitary,Carnivore,No,1,,1,15
+Chiroptera,Noctilionidae,Noctilio leporinus,greater bulldog bat ,Visitor,Social,Carnivore,No,0,0,0,69
+Chiroptera,Vespertilionidae,Nyctalus noctula,common noctule,Dweller,Solitary,Carnivore,No,1,0,1,32.5
+Carnivora,Canidae,Nyctereutes procyonoides,Raccoon dog,Visitor,Social,Omnivore,Yes,1,0,1,7000
+Artiodactyla,Cervidae,Odocoileus hemionus,mule deer,Visitor,Social,Herbivore,Yes,,,0,96500
+Artiodactyla,Cervidae,Odocoileus virginianus,white-tailed deer,Visitor,Solitary,Herbivore,Yes,0,0,0,97000
+Rodentia,Cricetidae,Ondatra zibethica,muskrat,Visitor/Dweller,Social,Herbivore,Yes,1,0,1,
+Carnivora,Otariidae,Otaria flavescens,south American seal lion,Dweller,Social,Carnivore,Yes,0,0,0,245000
+Artiodactyla,Bovidae ,Ovis musimon,mouflon,Avoider,Social,Herbivore,Yes,0,0,0,
+Carnivora,Viverridae,Paguma larvata,masked palm civet,Dweller,Solitary,Omnivore,Yes,0,0,0,4300
+Primates,Hominidae,Pan troglodytes schweinfurthii,chimpanzees,Visitor,Social,Omnivore,Yes,0,0,0,48000
+Primates,Cercopithecidae,Papio ursinus,chacma baboon,Visitor,Social,Omnivore,Yes,0,0,0,23000
+Rodentia,Cricetidae,Peromyscus spp.,deer mouse,Dweller,Solitary,Omnivore,No,1,0,1,43.8
+Artiodactyla,Suidae,Phacochoerus aethiopicus,desert warthog,Visitor,Social,Herbivore,Yes,1,1,1,87500
+Carnivora,Phocidaeæ,Phoca vitulina,common seal,Visitor,Social,Carnivore,Yes,0,0,0,125000
+Chiroptera,Phyllostomidae,Phyllostomus discolor,pale spear-nosed bat,Dweller,Social,Omnivore,No,0,0,0,
+Chiroptera,Phyllostomidae,Phyllostomus hastatus,greater spear-nosed bat,Avoider,Social,Omnivore,No,0,0,0,100.45
+Chiroptera,Vespertilionidae,Pipistrellus abramus,Japanese house bat,Dweller,Social,Carnivore,No,,,0,
+Chiroptera,Vespertilionidae,Pipistrellus nathusii,Nathusius' pipistrelle,Dweller,Social,Carnivore,No,0,0,0,
+Chiroptera,Vespertilionidae,Pipistrellus pipistrellus,common pipistrelle,Visitor,Solitary,Carnivore,No,1,0,1,5.75
+Primates,Pitheciidae,Pithecia monachus,monk saki,Visitor,Social,Omnivore,Yes,0,1,1,1500
+Chiroptera,Vespertilionidae,Plecotus auritus,brown long-eared bat,Avoider,Social,Carnivore,No,0,0,0,9
+Chiroptera,Vespertilionidae,Plecotus austriacus,grey long-eared bat,Avoider,Solitary,Carnivore,No,0,0,0,12.5
+Carnivora,Procyonidae,Procyon lotor,Raccoon,Dweller,Solitary,Omnivore,Yes,1,1,1,6100
+Chiroptera,Mormoopidae,Pteronotus parnellii,Parnell's mustached bat,Avoider,Social,Carnivore,No,0,0,0,15
+Artiodactyla,Cervidae,Rangifer tarandus,wild reindeer,Avoider,Social,Herbivore,Yes,0,0,0,186500
+Rodentia,Muridae,Rattus norvegicus,brown rat,Dweller,Social,Omnivore,Yes,1,1,1,320
+Rodentia,Muridae,Rattus rattus ,black rat ,Dweller,Social,Omnivore,Yes,1,1,1,185
+Chiroptera,Rhinolophidaeæ,Rhinolophus ferrumequinum nippon,Japanese greater horseshoe bat,Visitor,Social,Carnivore,No,,,0,25.5
+Chiroptera,Pteropodidae,Rousettus amplexicaudatus,Geoffroy's rousette bat,Visitor/Dweller,Social,Herbivore,Yes,1,0,1,
+Artiodactyla,Bovidae,Rupicara pyrenaica,Pyrenean chamois,Avoider,Social,Herbivore,Yes,0,0,0,
+Primates,Callitrichidae,Saguinus labiatus ,white-lipped tamarin,Visitor,Social,Omnivore,Yes,1,1,1,512.5
+Primates,Callitrichidae,Saguinus mystax,moustached tamarin,Visitor,Social,Omnivore,No,0,1,1,511
+Primates,Cebidae,Saimiri sciureus,common squirrel monkey,Visitor,Social,Omnivore,No,0,0,0,925
+Eulipotyphla,Talpidae,Scalopus aquaticus,eastern mole,Avoider,Solitary,Carnivore,No,0,0,0,86
+Rodentia,Sciuridae,Sciurus vulgaris,red squirrel ,Dweller,Solitary,Omnivore,Yes,1,0,1,600
+Primates,Cercopithecidae,Semnopithecus priam,tufted gray langur,Visitor/Dweller,Social,Omnivore,Yes,0,0,0,
+Eulipotyphla,Soricidae,Sorex araneus,common shrew,Dweller,Solitary,Carnivore,No,1,0,1,9.5
+Eulipotyphla,Soricidae,Sorex caecutiens,Laxmann's shrew,Avoider,Solitary,Omnivore,No,0,,0,
+Eulipotyphla,Soricidae,Sorex isodon,taiga shrew,Avoider,Solitary,Carnivore,No,0,,0,
+Eulipotyphla,Soricidae,Sorex minutus,pygmy shrew,Dweller,Solitary,Carnivore,No,0,,0,4.25
+Artiodactyla,Suidae,Sus scrofa,wild boar,Visitor,Social,Omnivore,Yes,1,1,1,169000
+Artiodactyla,Bovidae,Sylvicapra grimmia,common duiker,Visitor,Solitary,Herbivore,Yes,1,1,0,18500
+Artiodactyla,Bovidae,Syncerus caffer,African buffalo,Avoider,Social,Herbivore,Yes,0,1,0,567500
+Artiodactyla,Delphinidae,Tursiops truncatus,bottlenose dolphin,Avoider,Social,Carnivore,Yes,,,1,380000
+Carnivora,Ursidae,Ursus spp.,bear,Visitor/Dweller,Solitary,Omnivore,Yes,1,0,0,340000
+Carnivora,Canidae,Vulpes vulpes,red fox,Dweller,Solitary,Omnivore,Yes,1,0,1,8500
