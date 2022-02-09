@@ -27,3 +27,8 @@ Week 2: tidyverse, data input and checking for mistakes
 Script: week2_michaelbrooks.r
 Data: campylobacterreview_data.csv
 In this script I forced campylobacter, cjejuni, and ccoli variables into becoming factors rather than integers because they are binary data. I made a histogram of the new variable that I created (mass, in grams). I used group_by to summarize mass data using campylobacter, cjejuni, and ccoli variables, also repeated with trophic levels. I also created a new tibble using the mutate function to create a new variable mean.mass.campy, which is mean mass for campy infection status. After looking at the data, I'm starting to suspect mass may be an important variable related to life history traits. 
+
+Week 3: data visualization
+Script: week3_michaelbrooks.r
+Data: campylobacterreview_data.csv
+In this script I created several plots for visualization of my data. I used the example script to create several boxplots that allowed me to use my quantitative variable (mass) to examine several different connections between my categorical variables. 

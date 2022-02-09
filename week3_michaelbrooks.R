@@ -56,7 +56,43 @@ m3<- campylobacter %>%
   ylab ("Log of body mass")
 m3
 
+#bar plot for visualization of categorical values
+#urban dwellers/visitors seem much more likely to carry c jejuni
+#just an eyeball test but there is likely something there
+#Also changed the legend title and used proportion on the y axis
+#this allows better visualization of the data in my opinion
+#I can't figure out how to change the legend text, basically changing 0 to absence just for the graph
+m4 <- campylobacter %>%
+  filter(!is.na(cjejuni)) %>%
+  ggplot(aes(x=urban, fill=cjejuni))+
+  geom_bar(position="fill") +
+  theme_bw()+
+  theme (panel.grid=element_blank(),
+         legend.position="bottom")+ 
+  scale_fill_discrte(labels=)
+  guides(fill=guide_legend(title="Campylobacter jejuni")) +
+  xlab("Urban association") +
+  ylab ("Proportions")
+m4
 
+#bar plot for visualization of categorical values
+#a similar pattern exists for the campylobacter genus
+#maybe not quite as much of a difference between avoiders and dwellers/visitors
+#compared to c jejuni presence/absence
+m5 <- campylobacter %>%
+  filter(!is.na(campy)) %>%
+  ggplot(aes(x=urban, fill=campy))+
+  geom_bar() +
+  theme_bw()+
+  theme (panel.grid=element_blank())+
+  xlab ("Urban association")
+m5
+
+#saves my fourth plot
+ggsave(file="cjejuni_urban_bar chart.pdf", 
+       plot=m4,
+       width=7,height=7,units="in",
+       useDingbats=FALSE)
 
 
 
