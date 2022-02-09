@@ -38,7 +38,6 @@ Carnivora,Phocidaeæ,Halichoerus grypus,grey seal ,Visitor,Solitary,Carnivore,Ye
 Carnivora,Herpestidae,Herpestes javanicus,small indian mongoose,Dweller,Solitary,Omnivore,Yes,1,,1,
 Chiroptera,Rhinolophidae,Hipposideros diadema,diadem leaf-nosed bat,Visitor,Social,Carnivore,Yes,0,0,0,42
 Primates,Atelidae,Lagothrix lagotricha,brown woolly monkey,Visitor,Social,Omnivore,Yes,0,0,0,6500
-Lagomorpha,Leporidae,Lepus spp. ,hare ,Visitor/Dweller,Social,Herbivore,Yes,,0,1,5550
 Lagomorpha,Leporidae,Lepus spp. ,rabbit,Visitor/Dweller,Social,Herbivore,Yes,1,0,1,5550
 Lagomorpha,Leporidae,Lepus timidus,mountain hare,Visitor,Social,Herbivore,Yes,1,,1,2500
 Primates,Cercopithecidae,Macaca sinica,toque macaque,Visitor/Dweller,Social,Omnivore,Yes,1,1,1,4310
@@ -48,10 +47,9 @@ Rodentia,Sciuridae,Marmota monax,groundhog,Dweller,Social,Omnivore,Yes,0,0,0,400
 Carnovira,Mustelidae,Meles meles,european badger,Dweller,Social,Omnivore,No,1,,1,11650
 Carnivora,Mephitidae,Mephitis mephitis,striped skunk,Dweller,Solitary,Omnivore,Yes,1,0,1,3500
 Rodentia,Muridae,Micromys minutus ,harvest mouse,Avoider,Social,Omnivore,No,0,0,0,6
-Rodentia,Cricetidae,Microtus agrestis,field vole ,Visitor,Social,Omnivore,No,0,0,0,
 Rodentia,Cricetidae,Microtus agrestis,short-tailed field vole,Visitor,Social,Herbivore,No,0,,0,
 Rodentia,Cricetidae,Microtus arvalis,common vole,Dweller,Social,Herbivore,No,0,0,0,27.5
-Rodentia,Cricetidae,Microtus levis,east european vole,Visitor,Social,Herbivore,No,1,,0,
+Rodentia,Cricetidae,Microtus levis,east european vole,Visitor,Social,Herbivore,No,1,,1,
 Rodentia,Cricetidae,Microtus montebelli,Japanese grass vole,Dweller,Social,Herbivore,No,,,0,
 Rodentia,Cricetidae,Microtus oeconomus ,northern vole,Avoider,Solitary,Herbivore,No,0,0,0,52.5
 Rodentia,Cricetidae,Microtus pennsylvanicus,vole,Visitor,Solitary,Omnivore,No,0,0,0,42.12
@@ -116,8 +114,8 @@ Eulipotyphla,Soricidae,Sorex caecutiens,Laxmann's shrew,Avoider,Solitary,Omnivor
 Eulipotyphla,Soricidae,Sorex isodon,taiga shrew,Avoider,Solitary,Carnivore,No,0,,0,
 Eulipotyphla,Soricidae,Sorex minutus,pygmy shrew,Dweller,Solitary,Carnivore,No,0,,0,4.25
 Artiodactyla,Suidae,Sus scrofa,wild boar,Visitor,Social,Omnivore,Yes,1,1,1,169000
-Artiodactyla,Bovidae,Sylvicapra grimmia,common duiker,Visitor,Solitary,Herbivore,Yes,1,1,0,18500
-Artiodactyla,Bovidae,Syncerus caffer,African buffalo,Avoider,Social,Herbivore,Yes,0,1,0,567500
+Artiodactyla,Bovidae,Sylvicapra grimmia,common duiker,Visitor,Solitary,Herbivore,Yes,1,1,1,18500
+Artiodactyla,Bovidae,Syncerus caffer,African buffalo,Avoider,Social,Herbivore,Yes,0,1,1,567500
 Artiodactyla,Delphinidae,Tursiops truncatus,bottlenose dolphin,Avoider,Social,Carnivore,Yes,,,1,380000
-Carnivora,Ursidae,Ursus spp.,bear,Visitor/Dweller,Solitary,Omnivore,Yes,1,0,0,340000
+Carnivora,Ursidae,Ursus spp.,bear,Visitor/Dweller,Solitary,Omnivore,Yes,1,0,1,340000
 Carnivora,Canidae,Vulpes vulpes,red fox,Dweller,Solitary,Omnivore,Yes,1,0,1,8500
