@@ -68,9 +68,9 @@ m4 <- campylobacter %>%
   geom_bar(position="fill") +
   theme_bw()+
   theme (panel.grid=element_blank(),
-         legend.position="bottom")+ 
-  scale_fill_discrte(labels=)
-  guides(fill=guide_legend(title="Campylobacter jejuni")) +
+         legend.position="bottom")+
+  scale_fill_brewer(palette="YlOrRd") +
+  guides(fill=guide_legend(title="Campylobacter jejuni presence/absence")) +
   xlab("Urban association") +
   ylab ("Proportions")
 m4
