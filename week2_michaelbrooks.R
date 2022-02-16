@@ -23,7 +23,8 @@ str(campylobacter$ccoli) #structure of ccoli variable
 campylobacter$campy <- as.factor(campylobacter$campy) #force campylobacter variable into a factor
 str(campylobacter$campy) #structure of campylobacter variable
 
-#KL: why are you making these factors?
+#KL: why are you making these factors? 
+#MB: I made these factors to change them from integers into categorical variables for analysis
 #KL: some issues here with name changes and capitalization
 
 view(campylobacter) #pulls up Campylobacter table
