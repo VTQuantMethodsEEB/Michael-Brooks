@@ -15,19 +15,22 @@ unique(campylobacter$family) #unique values for family variable
 str (campylobacter$mass) #structure of the mass variable (numeric, continuous)
 
 campylobacter$cjejuni <- as.factor(campylobacter$cjejuni) #force cjejuni variable into a factor
-str(Campylobacter$cjejuni) #structure of cjejuni variable
+str(campylobacter$cjejuni) #structure of cjejuni variable
 
 campylobacter$ccoli <- as.factor(campylobacter$ccoli) #force ccoli variable into a factor
-str(Campylobacter$ccoli) #structure of ccoli variable
+str(campylobacter$ccoli) #structure of ccoli variable
 
-campylobacter$campy <- as.factor(campylobacter$campylobacter) #force campylobacter variable into a factor
-str(Campylobacter$campylobacter) #structure of campylobacter variable
+campylobacter$campy <- as.factor(campylobacter$campy) #force campylobacter variable into a factor
+str(campylobacter$campy) #structure of campylobacter variable
+
+#KL: why are you making these factors?
+#KL: some issues here with name changes and capitalization
 
 view(campylobacter) #pulls up Campylobacter table
 
 #group by campylobacter and mean mass (in grams)
 campylobacter %>%
-  group_by(campy) %>%
+  group_by(campy) %>% #KL: maybe you are doing this to use group_by
   summarise(mean.mass=mean(mass, na.rm=TRUE))
 
 #group by cjejuni and mean mass (in grams)
