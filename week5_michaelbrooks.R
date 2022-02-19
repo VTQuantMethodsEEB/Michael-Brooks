@@ -56,6 +56,16 @@ length(res[res>=obs])
 mean(res>=obs)
 
 
+
+
+
+
+
+
+
+
+
+
 #Hypothesis 2: The probability of a species harboring campylobacter jejuni is higher if it is an urban dweller than if it is an avoider
 #Null hypothesis: the probability of carriage is equal for avoiders and dwellers
 
