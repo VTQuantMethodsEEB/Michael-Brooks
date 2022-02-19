@@ -51,5 +51,7 @@ Script: week5_michaelbrooks.r
 Data: campylobacterreview_data.csv
 
 I tested two hypotheses
-1. The mean mass of urban avoiders is higher than urban dwellers. This is intuitive as larger species should have a harder time adapting to an urban environment, but it was good to verify this hypothesis.
+1. The mean mass of urban avoiders is higher than urban dwellers. This is intuitive as larger species should have a harder time adapting to an urban environment, but it was nice to see support for this. For this test I used a permutation and T-test.
+
+2. Probability of Campylobacter jejuni carriage differs between urban avoiders and urban dwellers. For this hypothesis, I used a Fisher's exact test and 2x2 contingency table. 
 
