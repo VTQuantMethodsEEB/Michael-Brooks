@@ -43,3 +43,13 @@ Script: week3_michaelbrooks.r
 Data: campylobacterreview_data.csv
 
 In this script I created several plots for visualization of my data. I used the example script to create several boxplots that allowed me to use my quantitative variable (mass) to examine several different connections between my categorical variables. I also created several bar charts to explore the relationship between the categorical variables used. 
+
+#week 5: hypothesis testing and permutations
+
+Script: week5_michaelbrooks.r
+
+Data: campylobacterreview_data.csv
+
+I tested two hypotheses
+1. The mean mass of urban avoiders is higher than urban dwellers. This is intuitive as larger species should have a harder time adapting to an urban environment, but it was good to verify this hypothesis.
+

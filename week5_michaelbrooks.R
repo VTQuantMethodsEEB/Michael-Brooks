@@ -53,5 +53,32 @@ obs
 res[res>=obs]
 length(res[res>=obs])
 367/10000
-mean(res>=obs)  
+mean(res>=obs)
+
+
+#Hypothesis 2: The probability of a species harboring campylobacter jejuni is higher if it is an urban dweller than if it is an avoider
+#Null hypothesis: the probability of carriage is equal for avoiders and dwellers
+
+#I'm using as.factor to turn cjejuni presence/absense into a categorical variable for a Fisher's exact test
+#Is this an appropriate transformation and test for this hypothesis?
+campylobacter$cjejuni <- as.factor(campylobacter$cjejuni) #force cjejuni variable into a factor
+
+#creates 2x2 contingency table that I can use for a Fisher's exact
+urbanjejuni <- table(campylobacter2$urban, campylobacter2$cjejuni)
+#just have to switch the column names around to reflect different arrangement
+colnames(urbanjejuni)=c("C.jejuni absence", "C.jejuni presence")
+urbanjejuni
+fisher.test(urbanjejuni)
+#p value is 0.002516, so the urban dwellers and avoiders differ in probability of finding c. jejuni
+
+#I guess I could have just run a fisher's exact on the table above
+#Yes, it is the same
+avoider <- c(2,19)
+dweller <- c(16,15)
+camptab=rbind(avoider, dweller)
+colnames(camptab)=c("C.jejuni presence", "C.jejuni absence")
+camptab
+fisher.test(camptab)
+
+
 
