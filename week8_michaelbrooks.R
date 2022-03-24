@@ -12,7 +12,8 @@ campy <- read.csv('campylobacterreview_data.csv')
 hist(campy$mass)
 
 #creates a new variable of the log of masses
-campy$logmass <- log(campylobacter$mass)
+#this looks much better
+campy$logmass <- log(campy$mass)
 hist(campy$logmass)
 
 #I am going to create a univariate model testing the effect of trophic level (categorical) 
@@ -20,6 +21,11 @@ hist(campy$logmass)
 mod1=lm(logmass~trophic, data=campy)
 summary(mod1)
 plot(mod1)
+#carnivore is the base with a log(mass) of 5.16
+#herbivores have a significantly higher log(mass) compared to carnivores (+3.8)
+#omnivores also have a significantly higher log(mass) (+2.03) compared to carnivores although
+#the results are not as statistically clear as those of herbivores
+#I blame all the shrews in the dataset
 
 #tests of normality of residuals
 hist(resid(mod1))

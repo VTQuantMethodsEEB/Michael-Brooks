@@ -55,3 +55,10 @@ I tested two hypotheses
 
 2. Probability of Campylobacter jejuni carriage differs between urban avoiders and urban dwellers. For this hypothesis, I used a Fisher's exact test and 2x2 contingency table. 
 
+#week 8: simple linear regression
+
+Script: week8_michaelbrooks.r
+Data: campylobacterreview_data.csv
+
+I created a simple linear regression using a categorical predictor variable (trophic level) and a continuous output variable (mass). From this analysis, carnivores appear to differ significantly in weight from herbivores and omnivores (they are lighter than these two trophic levels). Just eyeballing the data, I suspect that the shrews are weighting things, so I don't know that these results are general. I also concluded that mass is often skewed, so log transformation is key to creating a normal distribution for regression analysis. 
+
