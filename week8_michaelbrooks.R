@@ -85,7 +85,7 @@ ggplot(pp,aes(x=time,y=grahami,colour=light))+
 #the intercept is still social carnivore logmass
 #all other parameter estimates are comparing herbivore and omnivore logmass
 #also looks at the interactive effect between sociality and trophic level
-mod3=lm(logmass~trophic*sociality, data=campy)
+mod3=lm(logmass~trophic*sociality, data=campy, na.action=na.exclude)
 summary(mod3)
 mod3
 
@@ -99,6 +99,28 @@ lsm1
 pairs(lsm1)
 cld(lsm1$emmeans)
 
+#creates new variable in the dataset called 'yhat' which is the predicted values for the model
+#I'm getting an error here that the replacement has 92 rows while the data has 120?
+#used na.exclude code from stackexchange, got it working
+campy$yhat = predict(mod3)
+view(campy)
+
+#new dataframe
+dd <- with(campy,
+           expand.grid(trophic=unique(trophic),
+                       sociality=unique(sociality)))
+
+dd
+
+dd$logmass<- predict(mod3,newdata=dd)
+view(dd)
+
+#predicted values plot overlaid with raw data points
+#I can't figure out why it looks like this though
+ggplot(dd,aes(x=trophic,y=logmass,colour=sociality))+ 
+  geom_point()
+  geom_line(aes(group=trophic))+
+  geom_point(data=campy, aes(x=trophic,y=logmass,colour = sociality))
 
 
 
