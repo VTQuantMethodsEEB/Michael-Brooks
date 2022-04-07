@@ -10,7 +10,9 @@ library(MASS)
 
 #creates dataframe from csv file
 campy <- read.csv('campylobacterreview_data.csv')
+na.exclude(campy)
 head(campy)
+campy
 
 campy$logmass <-log(campy$mass)
 
