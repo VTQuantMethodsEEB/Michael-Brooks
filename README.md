@@ -62,3 +62,10 @@ Data: campylobacterreview_data.csv
 
 I created a simple linear regression using a categorical predictor variable (trophic level) and a continuous output variable (mass). From this analysis, carnivores appear to differ significantly in weight from herbivores and omnivores (they are lighter than these two trophic levels). Just eyeballing the data, I suspect that the shrews are weighting things, so I don't know that these results are general. I also concluded that mass is often skewed, so log transformation is key to creating a normal distribution for regression analysis. I also created an additive model with trophic level and sociality as well as an interactive model between these two variables. Finally, I attempted to plot to predicted values against the raw values, but this didn't visually look great. 
 
+#week 10/11
+
+Script: week10_michaelbrooks.r
+Data: campylobacterreview_data.csv
+
+I created a generalized linear model to assess the effect of urban association and mass (log 10 for normalization) on Campylobacter jejuni carriage. From the first model (additive) only, it can be seen that there is a statistically signigicant difference between urban avoiders and dwellers on the probability of Campylobacter carriage. Mass (or the log version of it) does not appear to have a significant effect on Campylobacter carriage, however, based on the models that I have created. 
+
