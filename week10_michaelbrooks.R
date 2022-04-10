@@ -85,10 +85,6 @@ plot2
 
 
 
-
-
-
-
 #WEEK 11
 library(ggplot2)
 library(MASS)
@@ -97,3 +93,40 @@ library(tidyverse)
 library(car)
 library(AICcmodavg)
 
+#creates a new dataframe with all na values omitted, seemed to resolve some issues
+campynaomit <-na.omit(campy)
+
+#creates the models for comparison
+#I am interested in a model based only on urban association
+#an additive model of urban association and trophic
+#the model I had tested earlier, urban association and log of mass
+#I am also interested in the effect of trophic level on its own
+#null model for comparison
+glm1=glm(cjejuni~urban, data=campynaomit, family="binomial")
+glm2=glm(cjejuni~urban + trophic, data=campynaomit, family="binomial")
+glm3=glm(cjejuni~urban + logmass, data=campynaomit, family="binomial")
+glm4=glm(cjejuni~1, data=campynaomit, family="binomial")
+
+
+#likelihood ratio test
+anova(glm1,glm2, test="LRT")
+anova(glm2, glm3, test="LRT")
+anova(glm1, glm3, test="LRT")
+anova(glm1, glm2, glm3, glm4, test="LRT")
+#based on the likelihood ratio test, no model appears to be "better" than any other
+#in predicting the probabililty of C. jejuni carriage
+
+#AIC section
+AIC(glm1, glm2, glm3, glm4)
+#from this output, it appears that glm1 (c jejuni carriage as predicted by urban association)
+#has the lowest AIC value (97.6) and therefore provides the most explanatory power
+#of the models tested
+#this differs from the likelihood ratio test, which does not reveal a significant difference
+#between any of the models, although the differences in AIC are relatively small
+#based on these small differences I might conclude that none of the models provide
+#significantly more explanatory power than the null model
+
+#tabular version of AIC
+aictab(cand.set=list(glm1,glm2,glm3,glm4),modnames=c("glm1","glm2","glm3","glm4"))
+#this provides AICC values, and since this is a relatively small dataset (<100 with NA values removed)
+#this output may be more accurate
