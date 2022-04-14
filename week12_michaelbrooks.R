@@ -15,18 +15,21 @@ na.exclude(campy)
 head(campy)
 campy
 campy$logmass <- log(campy$mass)
-campy$order <- as.factor(campy$ï..order)
+campy$order <- as.factor(campy$ï..order) #ran into an issue because this variable is named strangely 
 
-#creates a mixed model
-#studying the effect of logmass on c jejuni presence/absence
-#will be using order a random effect
-#my hypothesis is that 
-
+#confirmed that this was coded as a factor
 length(campy$order)
-str(campy$order)
+str(campy$order) #needed the number of levels for p value calculation
 campy$order
 
-lm2 <- lmer(cjejuni~logmass + (1|order),data=campy) ## rand intercept
-lm3 <- lmer(cjejuni~logmass + (Days|Subject),data=sleepstudy)
+#creates a mixed model
+#studying the effect of urban adaptation on c jejuni presence/absence
+#will be using order a random effect
+#my hypothesis is that urban dwellers will be more likely than avoiders to carry c jejuni
+glm1 <- glmer(cjejuni~urban + (1|order),data=campy, family="binomial")
+glm2 <- glmer(cjejuni~urban*trophic + (1|order), data=campy, family="binomial")
 
-lm2
+summary(glm1)
+anova(glm1)
+plot(glm1)
+ggplot()
