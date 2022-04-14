@@ -44,7 +44,7 @@ Primates,Cercopithecidae,Macaca sinica,toque macaque,Visitor/Dweller,Social,Omni
 Chiroptera,Pteropodidae,Macroglossus minimus,long-tongued nectar bat,Visitor/Dweller,Solitary,Herbivore,Yes,0,0,0,18
 Rodentia,Sciuridae,Marmota marmota,alpine marmot,Avoider,Solitary,Omnivore,Yes,,,0,3500
 Rodentia,Sciuridae,Marmota monax,groundhog,Dweller,Social,Omnivore,Yes,0,0,0,4000
-Carnovira,Mustelidae,Meles meles,european badger,Dweller,Social,Omnivore,No,1,,1,11650
+Carnivora,Mustelidae,Meles meles,european badger,Dweller,Social,Omnivore,No,1,,1,11650
 Carnivora,Mephitidae,Mephitis mephitis,striped skunk,Dweller,Solitary,Omnivore,Yes,1,0,1,3500
 Rodentia,Muridae,Micromys minutus ,harvest mouse,Avoider,Social,Omnivore,No,0,0,0,6
 Rodentia,Cricetidae,Microtus agrestis,short-tailed field vole,Visitor,Social,Herbivore,No,0,,0,

@@ -69,3 +69,10 @@ Data: campylobacterreview_data.csv
 
 I created a generalized linear model to assess the effect of urban association and mass (log 10 for normalization) on Campylobacter jejuni carriage. From the first model (additive) only, it can be seen that there is a statistically signigicant difference between urban avoiders and dwellers on the probability of Campylobacter carriage. Mass (or the log version of it) does not appear to have a significant effect on Campylobacter carriage, however, based on the models that I have created. In this script, I also compared several models in their ability to predict the probability of C. jejuni carriage, using a likelihood ratio test and AIC. These comparisons revealed no siginificant difference in explanatory power across models, even compared to a null model. The conclusion from this analysis is that neither of the selected models provide adequate explanatory power, perhaps related to the small sample size after removal of NA values. 
 
+#week 12
+
+script: week12_michaelbrooks.r
+Data: campylobacterreview_data.csv
+
+
+
