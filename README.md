@@ -74,5 +74,5 @@ I created a generalized linear model to assess the effect of urban association a
 script: week12_michaelbrooks.r
 Data: campylobacterreview_data.csv
 
-I created a glm mixed model to predict c jejuni presence/absence using urban adaptation as a fixed effect. Order was used as a random effect in this model. 
+I created a generalized linear mixed model to predict c jejuni presence/absence using urban adaptation as a fixed effect. Order was used as a random effect in this model based on the potential influence of this variable on life history traits. Analysis revealed that all levels (dweller, visitors, and visitor/dwellers) were significantly more likely to carry c. jejuni than avoiders. 
 
