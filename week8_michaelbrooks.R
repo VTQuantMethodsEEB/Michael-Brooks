@@ -75,10 +75,11 @@ pr
 
 
 
-
-ggplot(pp,aes(x=time,y=grahami,colour=light))+
-  geom_point()+
-  geom_line(aes(group=light))
+#this wasnt set up properly - maybe you didn't save?
+ggplot(pr,aes(x=trophic,y=logmasspred,shape=sociality))+
+  geom_point(data=campy, aes(x=trophic,y=logmass,shape=sociality))+
+  geom_point(color="red")
+  
 
 
 #Ha=logmass differs across trophic levels and sociality, and there is an interactive effect between these two predictors
@@ -97,7 +98,9 @@ plot(allEffects(mod3))
 lsm1<-emmeans(mod2,pairwise~trophic)
 lsm1
 pairs(lsm1)
+library(multcompView)
 cld(lsm1$emmeans)
+#this doesn't work for me
 
 #creates new variable in the dataset called 'yhat' which is the predicted values for the model
 #I'm getting an error here that the replacement has 92 rows while the data has 120?
@@ -118,9 +121,9 @@ view(dd)
 #predicted values plot overlaid with raw data points
 #I can't figure out why it looks like this though
 ggplot(dd,aes(x=trophic,y=logmass,colour=sociality))+ 
-  geom_point()
-  geom_line(aes(group=trophic))+
+  geom_point()+
+  #geom_line(aes(group=trophic))+
   geom_point(data=campy, aes(x=trophic,y=logmass,colour = sociality))
 
-
+##see code above for example
 
