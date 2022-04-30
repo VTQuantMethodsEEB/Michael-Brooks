@@ -27,3 +27,21 @@ glm1 = glm(cjejuni~urban + trophic + sociality,data=campy, family="binomial")
 glm1
 summary(glm1)
 
+#model with urban association and trophic level
+glm2=glm(cjejuni ~ urban + trophic, data=campy, family="binomial")
+glm2
+summary(glm2)
+
+#model with just urban association
+glm3=glm(cjejuni ~ urban, data=campy, family="binomial")
+glm3
+summary(glm3)
+
+#model with just trophic level
+glm4=glm(cjejuni ~ trophic, data=campy, family="binomial")
+glm4
+summary(glm4)
+
+
+
+
