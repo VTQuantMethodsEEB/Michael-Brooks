@@ -15,7 +15,7 @@ na.exclude(campy)
 head(campy)
 campy
 campy$logmass <- log(campy$mass)
-campy$order <- as.factor(campy$ï..order) #ran into an issue because this variable is named strangely 
+#campy$order <- as.factor(campy$?..order) #ran into an issue because this variable is named strangely 
 
 #confirmed that this was coded as a factor
 #if I didn't code it as a factor I kept getting weird errors
